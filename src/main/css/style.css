@@ -1,0 +1,350 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* My Code */
+
+@font-face {
+    font-family: sp;
+    src: url('../resources/south park.ttf');
+}
+
+@font-face {
+    font-family: ls;
+    src: url('../resources/LondrinaSolid-Regular.otf');
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    background-color: black;
+}
+
+header img {
+    width: 150px;
+    height: 100px;
+    margin-top: 15px;
+    float: left;
+}
+
+audio {
+    float: right;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin-top: 60px;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a{
+    font-family: sp;
+    font-size: 24px;
+    color: white;
+
+}
+
+body#home {
+    background-image: url('../resources/delicate-arch-night-stars-landscape.jpg');
+    margin-bottom: -40px;
+    display: block;
+}
+
+body#photos {
+    background-image: url('../resources/demo-2-bg.jpg');
+    margin-bottom: -40px;
+    display: block;
+}
+
+body#codecool {
+    background-image: url('../resources/pexels-photo-210186.jpeg');
+    margin-bottom: -40px;
+    display: block;
+}
+
+body#contact {
+    background-image: url('../resources/demo-2-bg.jpg');
+    margin-bottom: -40px;
+    display: block;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.about-me {
+    padding-bottom: 40px;
+}
+
+.about-me p{
+    font-family: sp;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+.about-me img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me h1 {
+    font-family: ls;
+    font-size: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 60px;
+    color: white;
+}
+
+.about-me p em {
+    font-family: "Fira Code", cursive;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.gallery {
+    overflow: hidden;
+}
+
+.gallery h1 {
+    font-family: ls;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+}
+.gallery p {
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: white;
+}
+
+.image-blueprint {
+
+    padding:35px;
+    margin:20px;
+    height:640px;
+    width:360px;
+    display: block;
+}
+
+.skills {
+    padding-bottom: 300px;
+}
+
+.skills h1 {
+    font-family: sp;
+    font-size: 30px;
+    text-align: center;
+    padding: 60px 0px;
+}
+.skills ul{
+    list-style-type: none;
+
+}
+
+.skills ul li{
+
+    font-family: sp;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact h1 {
+    text-align: center;
+    font-family: sp;
+    font-size: 40px;
+    padding: 40px 0px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 20px 0px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: darkcyan;
+    width: 65%;
+    outline: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit {
+    background-color: darkcyan;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: sp;
+    color: white;
+}
+
+.find-me {
+    padding-bottom: 50px;
+}
+
+.find-me h1 {
+    padding: 40px 0px;
+    font-family: ls;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.find-me a img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+}
+
+footer nav {
+    float: left;
+}
+
+footer nav ul {
+    margin-top: 20px;
+}
+
+footer nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+footer nav ul li a{
+    font-family: sp;
+    font-size: 16px;
+    color: white;
+
+}
+
+
+

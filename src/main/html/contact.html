@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Iceland</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
     </head>
 
     <header>
@@ -11,25 +11,48 @@
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/IcelandStub.svg/1280px-IcelandStub.svg.png">
             <nav>
                 <ul>
-                    <li><a href="WebPage.html">HOME</a></li>
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="photos.html">PHOTOS</a></li>
                     <li><a href="codecool.html">CODECOOL</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                 </ul>
-
             </nav>
         </div>
     </header>
 
-    <body>
-        <div class="wrapper">
+    <body id="contact">
+        <div class="contact">
+            <div class="wrapper">
+                <h1><span>Contact Me</span></h1>
+                <form>
+                    <input name="name" placeholder="Name" type="text" required /><br/>
+                    <input name="email" placeholder="Email" type="email" required /><br/>
+                    <textarea name="message" placeholder="Message" required ></textarea>
+                    <input type="submit" value="SEND" class="submit" />
+                </form>
+            </div>
+        </div>
+        <div class = "find-me">
+            <div class="wrapper">
+                <h1><span>Find Me</span></h1>
+                <div>
+                    <a href="https://www.facebook.com/igor.bochenek">
+                        <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+                    </a>
+                </div>
+            </div>
         </div>
     </body>
     <footer>
         <div class="wrapper">
-            <p>Created by: Igor Bochenek</p>
-            <p>Contact information: <a href="mailto:ragnarockie08@gmail.com">
-                ragnarockie08@gmail.com</a>.</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="photos.html">PHOTOS</a></li>
+                    <li><a href="codecool.html">CODECOOL</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
         </div>
     </footer>
 
